@@ -131,7 +131,7 @@ def analysis_content(screen_name):
                 b = b + 40
                 im.save('new_image' + str(i + 1) + '.jpg')
             i = i + 1
-            
+        #make new images with tags into video    
         os.system('ffmpeg -framerate 2 -i new_image%d.jpg -r 15 new_video.mp4')
         print("Done")
     else:
