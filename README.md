@@ -13,4 +13,4 @@ Build a library (preferable in python) that downloads images from a twitter feed
 5.Install google cloud for python(pip install google-cloud-python)  
 6.Get your Google Vision API Credentials from here: https://cloud.google.com/vision/docs/auth
 # About the results
-You will get images named image.jpg which downloaded from twitter account you put in, and a video named video.mp4 from these original images. Also, you will get new images with tags on them named new_image.jpg and a video named new_video.mp4.
+You will get images named image.jpg which downloaded from twitter account you choose, and a video named video.mp4 from these original images. Also, you will get new images with tags on them named new_image.jpg and a video named new_video.mp4.
