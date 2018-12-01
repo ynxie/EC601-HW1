@@ -35,5 +35,9 @@ The main requirements are:
 # Pre-preparation for running the code
 * Install mysql from [here](https://www.mysql.com/downloads/)
 * Install mongoDB from [here](https://www.mongodb.com/download-center/community?jmp=nav)
-* ```pip install pymysql```
-* ```pip install pymongo```
+* ```
+pip install pymysql
+```
+* ```
+pip install pymongo
+```
