@@ -34,10 +34,12 @@ The main requirements are:
   * most popular descriptors
 # Pre-preparation for running the code
 * Install mysql from [here](https://www.mysql.com/downloads/)
+* Install pymysql
+  ```
+  pip install pymysql
+  ```
 * Install mongoDB from [here](https://www.mongodb.com/download-center/community?jmp=nav)
-* ```
-pip install pymysql
-```
-* ```
-pip install pymongo
-```
+* Install pymongo
+  ```
+  pip install pymongo
+  ```
