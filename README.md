@@ -6,7 +6,7 @@ Build a library (preferable in python) that downloads images from a twitter feed
 * FFMPEG to convert images to videos  
 * Google Vision analysis to describe the content
 # Pre-preparation for running the code
-* Install Tweepy (pip install tweepy)  
+* Install Tweepy ```pip install tweepy```
 * Install FFMpeg (Because I run the code on windows, we need to change the environment variables.)  
 * Install Wget (pip install wget)  
 * Get your API credentials from [here](https://developer.twitter.com/en/docs/developer-utilities)  
