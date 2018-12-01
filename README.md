@@ -6,11 +6,17 @@ Build a library (preferable in python) that downloads images from a twitter feed
 * FFMPEG to convert images to videos  
 * Google Vision analysis to describe the content
 # Pre-preparation for running the code
-* Install Tweepy ```pip install tweepy```
+* Install Tweepy 
+```
+pip install tweepy
+```
 * Install FFMpeg (Because I run the code on windows, we need to change the environment variables.)  
-* Install Wget (pip install wget)  
+* Install Wget 
+```
+pip install wget
+``` 
 * Get your API credentials from [here](https://developer.twitter.com/en/docs/developer-utilities)  
-* Install google cloud for python(pip install google-cloud-vision)  
+* Install google cloud for python```pip install google-cloud-vision```
 * Get your Google Vision API Credentials from [here](https://cloud.google.com/vision/docs/auth)
 # About the results
 You will get images named image.jpg which downloaded from twitter account you choose, and a video named video.mp4 from these original images. Also, you will get new images with tags on them named new_image.jpg and a video named new_video.mp4.
@@ -29,3 +35,5 @@ The main requirements are:
 # Pre-preparation for running the code
 * Install mysql from [here](https://www.mysql.com/downloads/)
 * Install mongoDB from [here](https://www.mongodb.com/download-center/community?jmp=nav)
+* ```pip install pymysql```
+* ```pip install pymongo```
