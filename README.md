@@ -14,3 +14,15 @@ Build a library (preferable in python) that downloads images from a twitter feed
 6.Get your Google Vision API Credentials from here: https://cloud.google.com/vision/docs/auth
 # About the results
 You will get images named image.jpg which downloaded from twitter account you choose, and a video named video.mp4 from these original images. Also, you will get new images with tags on them named new_image.jpg and a video named new_video.mp4.
+
+# EC601-HW3
+# Definition of the exercise
+Do two database implementations with MySQL and MongoDB
+The main requirements
+Detail information of every transaction the user may run using your system
+Store all relevant information for everytime a user uses your application
+Add API and develop test program to
+Search for certain words and retrieve which user/session that has this work in it.  For example, search for ‘basketball”, and get results of which user had Basketball in their sessions.
+Collective statistics about overall usage of the system.  For example
+Number of images per feed
+Most popular descriptors
