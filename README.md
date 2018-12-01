@@ -16,7 +16,10 @@ pip install tweepy
 pip install wget
 ``` 
 * Get your API credentials from [here](https://developer.twitter.com/en/docs/developer-utilities)  
-* Install google cloud for python```pip install google-cloud-vision```
+* Install google cloud for python
+```
+pip install google-cloud-vision
+```
 * Get your Google Vision API Credentials from [here](https://cloud.google.com/vision/docs/auth)
 # About the results
 You will get images named image.jpg which downloaded from twitter account you choose, and a video named video.mp4 from these original images. Also, you will get new images with tags on them named new_image.jpg and a video named new_video.mp4.
@@ -43,3 +46,6 @@ The main requirements are:
 ```
   pip install pymongo
 ```
+# How to use the python files
+* Download 3 python files, including EC601_Mini_Project_1.py, mysql.py and mongoDB.py
+* Replace your own Twitter API credentials keys in EC601_Mini_Project_1.py
