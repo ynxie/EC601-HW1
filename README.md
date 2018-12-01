@@ -24,7 +24,8 @@ The main requirements are:
 * Store all relevant information for everytime a user uses your application  
 * Add API and develop test program to search for certain words and retrieve which user/session that has this work in it.  For example, search for ‘basketball”, and get results of which user had Basketball in their sessions.  
 * Collective statistics about overall usage of the system.  For example
-  * number of images per feed or most popular descriptors
+  * number of images per feed  
+  * most popular descriptors
 # Pre-preparation for running the code
 * Install mysql from [here](https://www.mysql.com/downloads/)
 * Install mongoDB from [here](https://www.mongodb.com/download-center/community?jmp=nav)
